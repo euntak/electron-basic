@@ -9,8 +9,6 @@ export class SideBar extends HTMLElement {
      */
     constructor() {
         super();
-        // document.body.appendChild(this);
-        console.log(this);
     }
 
     /**

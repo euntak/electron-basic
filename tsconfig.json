@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "outDir": "output",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "importHelpers": true,
+    "removeComments": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    "output",
+    "typings",
+    "jshint",
+    "script",
+    "app"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -1,15 +1,11 @@
-import { app, BrowserWindow } from 'electron';
+import {app, BrowserWindow} from 'electron';
 import * as path from 'path';
-import {SideBar} from '../client/SideBar';
-
 
 export default class App {
 
     constructor() {
 
         console.log('App initialized');
-
-        // new SideBar();
 
         this._initElectronEventBind();
     }
